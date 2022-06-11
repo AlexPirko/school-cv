@@ -1,3 +1,4 @@
+![my_photo](https://user-images.githubusercontent.com/105494280/173196115-00a94206-a324-4774-aabd-b83e4ea26fdd.jpg)
 # Aleksandr Pirko
 
 ### Contact information:
