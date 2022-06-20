@@ -23,21 +23,6 @@ html{
         /* Internet Explorer 10+ */
         color:#F2785C;
 }
-/* input[placeholder] {
-    text-overflow: ellipsis;
-}
-
-input::-moz-placeholder {
-    text-overflow: ellipsis;
-}
-
-input:-moz-placeholder {
-    text-overflow: ellipsis;
-}
-
-input:-ms-input-placeholder {
-    text-overflow: ellipsis;
-} */
 
 h1, h2, h3, h4, h5, h6 {
     padding: 0;
@@ -177,5 +162,39 @@ body {
     font-weight: 500;
     font-size: 24px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+.steps {
+    padding: 334px 0 0 0;
+}
+.subtitle {
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-size: 40px;
+    color: #F2785C;
+    text-align: center;
+    text-transform: uppercase;
+}
+.steps_grid {
+    padding-top: 36px;
+    display: grid;
+    grid-template-columns: 372px 332px 354px;
+    justify-content: space-evenly;
+}
+.steps_item {
+    max-width: 317px;
+    text-align: center;
+}
+.steps_img {
+    width: 100px;
+    height: 100px;
+    background-color:#F2785C;
+    padding: 23px;
+    border-radius: 16px;
+    margin: 0 auto 30px;
+}    
+.steps_link {
+    font-size: 20px;
+    color: #0D606F;
     text-decoration: none;
 }
