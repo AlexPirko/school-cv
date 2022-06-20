@@ -52,8 +52,6 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
-.div_logo {
-}
 .logo {
     width: 30px;
     height: 30px;
@@ -64,9 +62,6 @@ body {
     font-weight: 600;
     font-size: 32px;
     color: #FFFFFF;
-    }
-.nav {
-
 }
 .nav_list {
     display: flex;
@@ -106,8 +101,6 @@ body {
     line-height: 21px;
     color: #FFFFFF;
     text-decoration: none;
-}
-.main {
 }
 .prewiew {
     padding: 32px 0 0 120px; 
@@ -198,3 +191,72 @@ body {
     color: #0D606F;
     text-decoration: none;
 }
+.destinations {
+    margin-top: 97px;
+    overflow: hidden;
+}
+.destinations_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 800px);
+    justify-content: center;
+    gap: 60px;
+    margin: 46px 0 0;
+}
+.destinations_item {
+    position: relative;
+    text-align: center;
+}
+.destinations_img {
+    width:100%;
+    border-radius: 16px;
+}
+.img_text {
+    position: absolute;
+    bottom: 46px;
+    left: 16px;
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.slider_list {
+    margin-right: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 35px; 
+}
+.slider_item {
+    padding-left: 10px;    
+}
+.find_more {
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: hidden;
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    box-shadow: 0px 2px 3px rgba(13, 96, 111, 0.16), 0px 0px 3px rgba(13, 96, 111, 0.08);
+    border-radius: 10px;
+}
+.find_more_link {
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.div_button {
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    margin: -5px 0px 10px -50px;
+}
+
+
