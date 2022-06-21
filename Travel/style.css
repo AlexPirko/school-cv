@@ -313,5 +313,35 @@ body {
     text-decoration: none;
     padding-top: 10px;
 }
+.footer {
+    height: 61px;
+    margin-top: 50px;
+}
+.div_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.div_git {
+    width: 230px;
+}
+.logo_footer {
+    height: 34px;
+}
+.footer_text {font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-size: 16px;
+    color:#FFFFFF;
+}
+.div_social {
+    display: flex;
+    width: 230px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 5px;
+}
+.img_social {
+padding-left: 20px;
+}
 
 
