@@ -51,7 +51,7 @@ console.log(newArr);
 ## Education and courses
 * Institute of Refrigeration, Cryotechnologies and Ecoenergetics. Department of process, equipment and energy management
 * RS Schools Course «JavaScript/Front-end. Stage 0»
-* * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 * The Complete JavaScript From Zero to Result from Ivan Petrichenko
 * Practical JavaScript by Ivan Petrichenko (in progress) 
 
