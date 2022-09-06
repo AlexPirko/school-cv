@@ -25,6 +25,8 @@ I am 40 years old. I work as a photographer. My previous profession was a techni
 
 ## Skills
 * HTML5
+* CSS
+* GIT
 * Adobe Photoshop
 
 
@@ -48,13 +50,15 @@ console.log(newArr);
 
 ## Education and courses
 * Institute of Refrigeration, Cryotechnologies and Ecoenergetics. Department of process, equipment and energy management
-* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-* The Complete JavaScript + React Course - From Zero to Result from Ivan Petrichenko (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0»
+* * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+* The Complete JavaScript From Zero to Result from Ivan Petrichenko
+* Practical JavaScript by Ivan Petrichenko (in progress) 
 
 
 ## Language
 * Russian and Ukranian - native speaker
-* English level - A1 (A2 in progress)
+* English level - A2 (B1 in progress)
 
 
 
