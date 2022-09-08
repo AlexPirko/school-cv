@@ -1,14 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
- 
-    <title>CV</title>
-  </head>
-  <body>
-  
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about_me" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="work_experience" class="nav-link">Work experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education and courses</a></li>
+          <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+        </ul>
+      </nav>
+    </header>
+  <div class="container">
+    <main class="main-container">
+      <div class="profile">
+        <img src="assets/my_photo.jpg" alt="my photo" class="my-photo">
+        <div class="profile_info">
+          <h1 class="main-title">Aleksandr Pirko</h1>
+          <h2 class="section-title">Contact information</h2>
+          <ul class="contact-list">
+            <li class="contact-list-item"><b>Phone:</b> +38 093 4496897</li>
+            <li class="contact-list-item"><b>E-mail:</b> youzhny.foto@gmail.com</li>
+            <li class="contact-list-item"><b>Telegram:</b> @youzhny_foto</li>
+            <li class="contact-list-item"><b>Discord:</b> Alexpirko #4989</li>
+            <li class="contact-list-item"><b>Git-Hub:</b> AlexPirko</li>
+          </ul>
+        </div>
+      </div>
+      <section class="section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-me">I am 40 years old. I work as a photographer. My previous profession was a technical
+          supervision specialist in a construction company. I have achieved limited results in my work and now I want to
+          develop in a different direction. My goal is to gain knowledge in front-end development. That's why I want to
+          learn in RSSchool!</p>
+        <br>
+        <h3 class="subtitle">My strengths:</h3>
+        <ul class="subparagraph">
+          <li class="subparagraph-item">High level of performance and creative potential</li>
+          <li class="subparagraph-item">Smart student</li>
+          <li class="subparagraph-item">I like to excel at everything I do</li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="subparagraph">
+          <li class="subparagraph-item">HTML5</li>
+          <li class="subparagraph-item">Adobe Photoshop</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code example</h2>
+        <p class="code"><code>
+            let arr = [177, 5, 6, 23, 9, 4, 2, 1, 210, 19, 22, 11, 2, 211, 3, 4, 20, 99, 100];<br>
+            let newArr = arr.map(function (item) {<br>
+            return item * 2;<br>
+            });<br>
+            console.log(newArr);
+          </code></p>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Work experience</h2>
+        <ul class="subparagraph">
+          <li class="subparagraph-item">Technical Supervision Engineer</li>
+          <li class="subparagraph-item">Professional photographer and retoucher</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education and courses</h2>
+        <ul class="subparagraph">
+          <li class="subparagraph-item">Institute of Refrigeration, Cryotechnologies and Ecoenergetics. Department of
+            process, equipment and energy management</li>
+          <li class="subparagraph-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+          <li class="subparagraph-item">The Complete JavaScript + React Course - From Zero to Result from Ivan
+            Petrichenko (in progress)</li>
+        </ul>
+      </section>
+      <section class="section" id="lang">
+        <h2 class="section-title">Language</h2>
+        <ul class="subparagraph">
+          <li class="subparagraph-item">Russian and Ukranian - native speaker</li>
+          <li class="subparagraph-item">English level - A1 (A2 in progress)</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+    <footer class="footer">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item-link"><a href="https://github.com/AlexPirko" class="nav-link">AlexPirko</a>&#169;2022</li>
+          <li class="nav-item-logo"><a href="https://rs.school/js/" class="logo-footer"><img src="assets/school.ico"
+                alt="school logo"></a></li>
+        </ul>
+      </nav>
+    </footer>
+</body>
 </html>
